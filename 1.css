@@ -1,0 +1,326 @@
+*{margin: 0; padding: 0;}
+
+.mo .col-lg-5.fixlg5 {
+    overflow: hidden;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top.fixnav {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.col-sm-1.text-sm-center.float-xs-right.fixmenu {
+}
+
+.menu li p {
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 8px;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-top: 25vh;
+    margin-right: 1vh;
+    width: 94px;
+    list-style: none;
+   
+}
+
+ul.menu li {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 59px;
+    height: 41px;
+    border-radius: 31px;
+    margin-top: 40px;
+    margin-left: -11px;
+}
+ul.menu li:hover{
+    width: 108px;
+    transition: 0.4s;
+    border: 1px solid #ffb400;
+    background-color: #ffb400;
+}
+
+ul.menu li:nth-child(3):hover {
+    width: 139px;
+}
+ul.menu li:hover p{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+    padding-left: 7px;
+}
+.menu i:hover {
+    transition: 0.4s;
+    color: #ffffb4;
+    
+    text-shadow: 0px 0px 10px #ffffb4;
+ 
+}
+
+.menu li:nth-child(2) i:hover {
+    /* padding-top: 7px; */
+    transition: 0.4s;
+}
+
+.menu li:nth-child(1) i {
+    padding-right: 9px;
+    font-size: 5vh;
+    color: #ffb400;
+    text-shadow: 0px 0px 10px #ffb400;
+}
+
+.menu li:nth-child(1) i:hover {
+
+    color: white;
+    text-shadow: 0px 0px 10px #ffffb4;
+}
+
+.menu i {
+   
+width: 6vh;
+   
+color: white;
+   
+font-size: 4vh;
+   
+cursor: pointer;
+   
+padding-top: 8px;
+   
+float:right;
+   
+/* padding-left: 0px; */
+   
+/* margin: auto; */
+}
+
+.menu li:nth-child(2) i {
+    padding-left: 6px;
+}
+
+button.btn.btn-outline-primary.btn-lg.fixnut {
+    margin-top: 6px;
+    border: 2px solid;
+    border-radius: 26px;
+    border-color: #ffb400;
+    color: #ffb400;
+    transition: 0.4s;
+}
+button.btn.btn-outline-primary.btn-lg.fixnut:hover{
+    background-color: #ffb400;
+    color: white;
+}
+
+@font-face{
+    font-family: 'fontchugioithieu';
+    src:url(fonts/TTF/helveticaneuelight.ttf);
+
+}
+.text.gioithieu {
+    color: white;
+}
+
+.text.gioithieu {
+    font-family: 'fontchugioithieu';
+    margin-top: 30vh;
+}
+
+.text.gioithieu h3 {
+    font-size: 8vh;
+}
+
+.text.gioithieu p {
+    font-size: 3vh;
+}
+
+.text h3 {float: left;}
+
+.avatar {
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 16vh;
+    margin-left: 9vh;
+  
+    width: 53vh;
+    height: 70vh;
+ 
+    box-shadow: 14px 12px 40px 0px rgba(0, 0, 0, 1);
+} 
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html {}
+header{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+header .mo{
+    width: 100%;
+    height: 100%;
+    
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4962359943977591) 50%, rgba(0,0,0,0.9) 100%);
+    }
+img.fixavatar {
+    height: 88vh;
+    width: 64vh;
+    transform: scale(0.9) translateY(-43px) translateX(-31px);
+   
+    border-radius: 1%;
+    
+    -webkit-box-shadow: 15px 20px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 20px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 16px -9px 40px 0px rgba(0, 0, 0, 1);
+}
+.fixrow{
+    width: 100%;
+    height: 100%;
+    
+}
+@media (max-width: 576px){
+    *{}
+
+.text.gioithieu a button {
+    /* margin-top: 2vh!important; */
+}
+
+button.btn.btn-outline-primary.btn-lg.fixnut {
+    margin-top: 1vh!important;
+}
+
+.mo .fixrow .col-lg-5.fixlg5 {padding-right: 0;}
+
+.fixnav button.navbar-toggler.hidden-lg-up.fixnut.float-xs-left.collapsed {
+    margin-top: 2vh;
+}
+    .text h3 {float: left;}
+}
+@media (max-width: 991px){
+    *{}
+
+.fixnav li.nav-item {
+    margin-left: 1rem;
+}
+
+.mo .fixrow .col-lg-5.fixlg5 {
+    padding-right: 0;
+}
+
+.fixnav img.fixlogo {
+    width: 11vh;
+    height: 8vh;
+}
+
+.fixnav .fixnut {
+    color: black!important;
+    border: none;
+    margin-top: 2vh;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top.fixnav {
+    opacity: 1;
+    visibility: visible;
+    background-color: #ffffff;
+    border-bottom: 1px solid #121415;
+}
+
+ul.nav.navbar-nav {
+    
+color: black;
+}
+
+div {}
+
+.text.gioithieu {
+    margin-top: 0vh;
+}
+
+.text.gioithieu h3 {
+    font-size: 6vh;
+}
+
+.text.gioithieu div {
+    margin: auto;
+    width: 34vh;
+    float: none;
+}
+.text.gioithieu p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.text.gioithieu div h3:nth-child(3) {
+    width: 0px;
+    float: none;
+    /* padding: 0; */
+}
+
+div {}
+
+.fixnav .fixnut div ul li:nth-child(1) {
+    margin-left: 1rem!important;
+}
+
+.col-lg-1.text-sm-center.float-xs-right.fixmenu {
+    height: 0;
+    overflow: hidden;
+}
+
+.fixnav .canhlelogo {
+    margin: auto;
+    width: 11vh;
+    height: 10vh;
+}
+
+.mo {
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 38vh;
+    width: 39vh;
+    margin-left: 42vh;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.avatar img.fixavatar {
+   
+    transform: translateY(-207px) translateX(-141px);
+}
+.text.gioithieu a button {
+    margin-top: 0!important;
+    font-size: 13px;
+}
+}
+@media (max-width:768px){
+
+    *{}
+
+.fixnav button.navbar-toggler.hidden-lg-up.fixnut.float-xs-left.collapsed {
+    margin-top: 2vh;
+}
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+.text.gioithieu p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.text.gioithieu a button {
+    margin-top: 0!important;
+    font-size: 13px;
+}
+}
